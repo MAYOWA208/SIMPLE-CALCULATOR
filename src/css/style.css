@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    background: rgb(64, 198, 106);
+    margin: 0;
+}
+
+.calculator {
+    background: rgb(168, 154, 154);  
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(red, green, blue, grey);
+}
+
+input {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+button{
+    margin: 18px 5px;
+    padding: 15px 6px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+h2 span{
+    color: rgb(17, 203, 48);
+}
